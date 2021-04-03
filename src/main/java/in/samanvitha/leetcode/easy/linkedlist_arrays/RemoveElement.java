@@ -5,7 +5,7 @@ public class RemoveElement {
         RemoveElement obj = new RemoveElement();
         int[] nums= new int[]{3,2,2,3};
         int var=3;
-        int a=remove1(nums,var);
+        int a=obj.remove1(nums,var);
         System.out.println("The length of the array "+a);
         System.out.println("The array is displayed as");
         System.out.print("[ ");
