@@ -1,4 +1,5 @@
-package in.samanvitha.simple_interpreter.model;
+package in.samanvitha.simple_interpreter_part_two.model;
+
 
 public class Token {
     private String value;
@@ -15,5 +16,13 @@ public class Token {
 
     public TokenType getType() {
         return type;
+    }
+
+    @Override
+    public String toString() {
+        return "Token{" +
+                "value='" + value + '\'' +
+                ", type=" + type +
+                '}';
     }
 }

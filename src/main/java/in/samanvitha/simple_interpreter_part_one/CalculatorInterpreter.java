@@ -1,11 +1,10 @@
-package in.samanvitha.simple_interpreter;
-import  in.samanvitha.simple_interpreter.service.Expr;
+package in.samanvitha.simple_interpreter_part_one;
+import  in.samanvitha.simple_interpreter_part_one.service.Expr;
 import java.util.Scanner;
 
 public class CalculatorInterpreter {
     public static void main(String[] args) {
         System.out.println("This is a simple calculator - Playing around with an interpreter");
-        int count=0;
         Expr expr = new Expr();
         Scanner scanner = new Scanner(System.in);
 
@@ -13,13 +12,15 @@ public class CalculatorInterpreter {
             System.out.print("\n\nEnter -1 to escape : $>");
             String input = scanner.nextLine();
 
-            input = input.replaceAll(" ","");
-
             if (input.equalsIgnoreCase("-1")) {
                 break;
             }
+            Integer result = expr.evaluate(input);
+            System.out.println("Sum of:" + input + " = " + result);
 
-            char[] chars = input.toCharArray();
+          /*
+            // input = input.replaceAll(" ","");
+          char[] chars = input.toCharArray();
             char[] newchar = {'0','0','+','0','0'};
             if(chars.length==5)
             {
@@ -56,7 +57,8 @@ public class CalculatorInterpreter {
                 String input1 = String.valueOf(newchar);
                 Integer result = expr.evaluate(input1);
                 System.out.println("Sum of:" + input + " = " + result);
-            }
+            }*/
+
         }
     }
 }
