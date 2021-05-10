@@ -1,12 +1,22 @@
 package in.samanvitha.leetcode.easy.linkedlist_arrays;
-
-import java.sql.SQLOutput;
+import java.util.Scanner;
 
 public class TwoSum {
     public static void main(String[] args) {
         TwoSum obj = new TwoSum();
-        int[] nums= new int[]{2,7,11,15};
-        int target=9;
+        Scanner scanner = new Scanner(System.in);
+        int[] nums = new int[100];
+
+        System.out.println("Enter size of the array");
+        int size= scanner.nextInt();
+
+        System.out.println("Enter "+size+" elements of the array");
+        for(int i=0;i<size;i++){
+            nums[i] = scanner.nextInt();
+        }
+
+        System.out.println("Enter target of the array");
+        int target = scanner.nextInt();
         int a[] =obj.twoSum(nums,target);
         System.out.println("The indices are "+a[0] + " " + a[1]);
 
