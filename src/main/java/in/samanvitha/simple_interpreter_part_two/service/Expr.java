@@ -47,7 +47,11 @@ public class Expr {
     public int evaluate(String input) {
         if(input==null)
         {
-            throw new IllegalArgumentException("Null value now allowed");
+            throw new IllegalArgumentException("Null value not allowed");
+        }
+
+        if(input.length()==0) {
+            throw new IllegalArgumentException("Empty String not allowed");
         }
         Token[] tokens = new Token[3];
         /*
