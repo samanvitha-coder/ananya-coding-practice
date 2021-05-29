@@ -1,10 +1,7 @@
 package in.samanvitha.leetcode.easy.linkedlist_arrays;
-
-import in.samanvitha.simple_interpreter_part_two.service.Expr;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 public class MatrixDiagonalSumTest {
 
@@ -25,15 +22,15 @@ public class MatrixDiagonalSumTest {
                 () -> mat.diagonalSum(mat1));
         Assertions.assertEquals("Empty Matrix not allowed", exception.getMessage());
     }
-    @Test
-    public void testCasePassingNullAsArgument() {
-        MatrixDiagonalSum mat = new MatrixDiagonalSum();
-        int mat1[][] = null;
-        Throwable exception = Assertions.assertThrows(IllegalArgumentException.class,
-                () -> mat.diagonalSum(mat1));
-        Assertions.assertEquals("Null value not allowed", exception.getMessage());
-
-    }
+//    @Test
+//    public void testCasePassingNullAsArgument() {
+//        MatrixDiagonalSum mat = new MatrixDiagonalSum();
+//        int mat1[][] = null;
+//        Throwable exception = Assertions.assertThrows(IllegalArgumentException.class,
+//                () -> mat.diagonalSum(mat1));
+//        Assertions.assertEquals("Null value not allowed", exception.getMessage());
+//
+//    }
 
 
 }
