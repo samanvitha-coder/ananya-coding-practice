@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 class ParkingSystemTest {
 
     @Test
-    public void testCorrectOperation(){
+    public void testBigTwoMediumTwoSmallOne(){
         ParkingSystem park = new ParkingSystem(2,2,1);
         Assertions.assertEquals(true,park.addCar(1));
         Assertions.assertEquals(true,park.addCar(2));
