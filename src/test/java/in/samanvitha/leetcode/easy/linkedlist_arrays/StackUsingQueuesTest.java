@@ -4,13 +4,11 @@ package in.samanvitha.leetcode.easy.linkedlist_arrays;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class QueueUsingStacksTest {
+class StackUsingQueuesTest {
 
     @Test
     public void testCorrectOperation(){
-        QueueUsingStacks stack = new QueueUsingStacks();
-//        int result = qu.push(1);
-//        Assertions.assertEquals(1,result);
+        StackUsingQueues stack = new StackUsingQueues();
         stack.push(1);
         stack.push(2);
         stack.push(3);
