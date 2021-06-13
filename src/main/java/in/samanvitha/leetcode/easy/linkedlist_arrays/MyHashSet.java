@@ -31,6 +31,7 @@ import java.util.HashMap;
         }
 
         public boolean contains(int key) {
+
             return internalHashMap.containsKey(key) && internalHashMap.get(key);
         }
 
