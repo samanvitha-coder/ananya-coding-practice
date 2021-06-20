@@ -6,6 +6,12 @@ public class ArrayStringsAreEqual {
         ArrayStringsAreEqual obj = new ArrayStringsAreEqual();
         String[] arr1 = {"a","b"};
         String[] arr2 = {"ab"};
+        byte b =3;
+        int c=100;
+        int a = c>>b*3;
+        System.out.println(a);
+        int x = (c>>b)*3;
+        System.out.println(x);
         System.out.println(obj.arrayStringsAreEqual(arr1,arr2));
 
     }
