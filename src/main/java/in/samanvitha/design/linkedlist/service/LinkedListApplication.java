@@ -10,20 +10,23 @@ public class LinkedListApplication {
         for(int element : arr){
             list.insertAtEnd(element);
         }
-        System.out.println(list.deleteFront());
+        list.insertAtBeginning(0);
         list.print();
-        System.out.println(list.deleteEnd());
-        list.print();
-        list.insertAtBeginning(11);
-        list.print();
-        list.insertAtGivenPosition(12,2);
-        list.print();
-        list.deleteAtGivenPosition(9);
-        list.print();
-        System.out.println(list.getSize());
-        System.out.println(list.check(9));
-        System.out.println(list.check(23));
-        list.reverse();
-        list.print();
+
+//        System.out.println(list.deleteFront());
+//        list.print();
+//        System.out.println(list.deleteEnd());
+//        list.print();
+//        list.insertAtBeginning(11);
+//        list.print();
+//        list.insertAtGivenPosition(12,2);
+//        list.print();
+//        list.deleteAtGivenPosition(9);
+//        list.print();
+//        System.out.println(list.getSize());
+//        System.out.println(list.check(9));
+//        System.out.println(list.check(23));
+//        list.reverse();
+//        list.print();
     }
 }
