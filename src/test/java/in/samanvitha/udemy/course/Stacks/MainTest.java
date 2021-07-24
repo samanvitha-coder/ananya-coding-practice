@@ -24,7 +24,7 @@ public class MainTest {
         Assertions.assertEquals(stack.isEmpty(),false);
 
         Assertions.assertEquals(stack.peek().getId(),3245);
-        
+
         Assertions.assertEquals(stack.size(),4);
     }
 }
