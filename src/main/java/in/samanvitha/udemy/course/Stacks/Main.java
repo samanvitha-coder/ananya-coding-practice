@@ -1,4 +1,4 @@
-package in.samanvitha.udemy.course.Stacks;
+package in.samanvitha.udemy.course.stacks;
 
 public class Main {
     public static void main(String[] args) {
