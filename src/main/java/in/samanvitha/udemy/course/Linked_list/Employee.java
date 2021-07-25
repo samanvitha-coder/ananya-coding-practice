@@ -1,6 +1,4 @@
-package in.samanvitha.udemy.course.Linked_list;
-
-import in.samanvitha.udemy.course.Single_linked_list.EmployeeNode;
+package in.samanvitha.udemy.course.linked_list;
 
 import java.util.Objects;
 
