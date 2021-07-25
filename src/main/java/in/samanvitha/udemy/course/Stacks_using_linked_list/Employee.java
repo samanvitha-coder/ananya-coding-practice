@@ -1,4 +1,4 @@
-package in.samanvitha.udemy.course.Stacks_using_linked_list;
+package in.samanvitha.udemy.course.stacks_using_linked_list;
 
 public class Employee {
     private String firstName;

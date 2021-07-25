@@ -1,4 +1,4 @@
-package in.samanvitha.udemy.course.Stacks;
+package in.samanvitha.udemy.course.stacks;
 
 public class Employee {
     private String firstName;
