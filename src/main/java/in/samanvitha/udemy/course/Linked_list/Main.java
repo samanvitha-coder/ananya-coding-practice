@@ -1,4 +1,4 @@
-package in.samanvitha.udemy.course.Linked_list;
+package in.samanvitha.udemy.course.linked_list;
 
 import java.util.ArrayList;
 import java.util.List;
