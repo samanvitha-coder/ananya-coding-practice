@@ -1,4 +1,4 @@
-package in.samanvitha.udemy.course.Double_linked_list;
+package in.samanvitha.udemy.course.double_linked_list;
 
 public class EmployeeDoubleLinkedList {
     private EmployeeNode head;
