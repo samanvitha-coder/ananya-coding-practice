@@ -1,4 +1,4 @@
-package in.samanvitha.udemy.course.Single_linked_list;
+package in.samanvitha.udemy.course.single_linked_list;
 
 public class Employee {
     private String firstName;
