@@ -1,4 +1,4 @@
-package in.samanvitha.udemy.course.Sorting_algorithms;
+package in.samanvitha.udemy.course.sorting_algorithms;
 
 public class RadixSort {
     public static void main(String[] args) {
