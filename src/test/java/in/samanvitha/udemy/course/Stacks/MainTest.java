@@ -1,4 +1,4 @@
-package in.samanvitha.udemy.course.Stacks;
+package in.samanvitha.udemy.course.stacks;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

@@ -1,9 +1,7 @@
-package in.samanvitha.udemy.course.Single_linked_list;
+package in.samanvitha.udemy.course.single_linked_list;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
     @Test
