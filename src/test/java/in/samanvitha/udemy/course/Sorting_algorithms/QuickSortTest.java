@@ -1,9 +1,7 @@
-package in.samanvitha.udemy.course.Sorting_algorithms;
+package in.samanvitha.udemy.course.sorting_algorithms;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class QuickSortTest {
     @Test
